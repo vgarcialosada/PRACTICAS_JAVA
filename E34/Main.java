@@ -11,7 +11,7 @@ public class Main {
 		float basesalary=employee1.getSalary();
 		System.out.println(basesalary);
 		
-		employee1.setSalary(1500);
+		Employee.setSalary(employee1,1500);
 		System.out.println(employee1.getSalary());
 		
 		
