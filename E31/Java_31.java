@@ -4,8 +4,11 @@ public class Java_31 {
 
 	public static String[] tecnologies = { "Markdown", "Regexp", "HTML", "CSS", "JS", "SQL", "Java" };
 	static int num = -1;
+	
 	public static String sup = "supercalifragilisticoespialidoso";
 	public static String palabraInvertida = "";
+static int total=1;
+static int[] nums= {1,2,3,4};
 
 	public static void main(String[] args) {
 		recorrerArray(tecnologies);
@@ -21,6 +24,9 @@ public class Java_31 {
 
 		setCounter(0);
 		sumarNumeros(124127);
+		
+		
+		
 	}
 
 	public static void recorrerArray(String[] recorrer) {
@@ -78,6 +84,9 @@ public class Java_31 {
 			System.out.println("=" + num);
 		}
 	}
+	
+		
+	
 
 	// utilities
 	public static void separador() {
